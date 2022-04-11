@@ -1,0 +1,23 @@
+.inputSearch {
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+    border-radius: 3px;
+}
+
+.botonSearch {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+    background-color: rgba(79, 174, 255, 1);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 7%;
+    height: 25px;
+    transition: all ease 200ms;
+    margin: 5px;
+}
+
+.botonSearch:hover {
+    background-color: hsl(0, 0%, 100%);
+}

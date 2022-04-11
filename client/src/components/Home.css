@@ -1,0 +1,88 @@
+.divMain {
+    background-color: lightsteelblue;
+}
+
+.div {
+    background: rgb(60, 131, 173);
+    background: linear-gradient(90deg, rgba(0, 172, 95, 1) 0%, rgba(79, 174, 255, 1) 50%, rgba(0, 172, 95, 1) 100%);
+}
+
+.divTop {
+    background: rgb(156, 83, 180, 0.6);
+    border: 3px solid rgb(85, 85, 85);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+body {
+    background: rgb(60, 131, 173);
+    background: linear-gradient(90deg, rgba(0, 172, 95, 1) 0%, rgba(79, 174, 255, 1) 50%, rgba(0, 172, 95, 1) 100%);
+}
+
+.button,
+.buttonAct {
+    width: 10%;
+    height: 35px;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(79, 174, 255, 1);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
+.button:active,
+.buttonAct:active {
+    transform: translateY(5%);
+}
+
+.button:hover,
+.buttonAct:hover,
+.botHome:hover,
+.buttonPag:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.button {
+    margin: 5px;
+    width: fit-content;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.buttonAct {
+    width: fit-content;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.title {
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.select {
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+option {
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+}

@@ -1,0 +1,18 @@
+.paginado {
+    margin-bottom: 2%;
+    display: inline-flex;
+    justify-content: space-around;
+    height: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ul {
+    padding-top: 1%;
+    padding-left: 0px;
+    margin: 1px;
+}
+
+.nav {
+    background-color: rgba(78, 78, 78, 0.5);
+}
