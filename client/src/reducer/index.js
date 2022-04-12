@@ -93,6 +93,11 @@ function rootReducer(state = initialState, action) {
                 ...state,
                 countries: action.payload === 'All' ? everyCountry : filtAct
             }
+        case 'EMPTY_DETAIL':
+            return {
+                ...state,
+                detail: []
+            }
         default:
             return state
     }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router";
-import { getCountriesDetail } from "../actions";
+import { getCountriesDetail, emptyDetail } from "../actions";
 import './DetailsStyle.css'
 
 
@@ -13,7 +13,10 @@ export default function Details() {
     const countryDetails = useSelector((state) => state.detail);
 
     useEffect(() => {
-        dispatch(getCountriesDetail(id))
+        dispatch(getCountriesDetail(id));
+        return function() {
+            dispatch(emptyDetail())
+        }
     },
         [dispatch, id]
     )

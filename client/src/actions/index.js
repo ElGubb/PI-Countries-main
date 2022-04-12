@@ -108,3 +108,9 @@ export function filterActivities(payload) {
         payload
     }
 }
+
+export function emptyDetail() {
+    return {
+        type: 'EMPTY_DETAIL'
+    }
+}
