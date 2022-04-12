@@ -36,3 +36,15 @@
     color: #ffffff;
     text-shadow: 2px 2px 2px black;
 }
+
+.validateForm {
+    border: 2px solid crimson;
+    background-color: grey;
+    width: fit-content;
+    padding: 3px;
+    margin: auto;
+    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+}
